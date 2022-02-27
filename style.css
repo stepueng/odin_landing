@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+}
+
+button {
+    background-color: #3882F6;
+    color:white;
+}
+
+.hero-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header {
+    display:flex;
+    flex-direction: column;
+    background-color:#1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header a {
+    color:#E5E7EB;
+    font-size:18px;
+    text-decoration: none;
+}
+
+.header ul {
+    display:flex;
+    list-style: none;
+    gap:16px;
+}
+
+.header-top {
+    display:flex;
+    justify-content: space-between;
+}
+
+.header-bottom {
+    display:flex;
+}
+
+.footer {
+    background-color:#1F2937;
+    color:#F9FAF8;
+}
+
+.box {
+    width: 125px;
+    height: 125px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.info-content {
+    display:flex;
+}
+
+.info-title {
+    text-align: center;
+}
+
+.signup {
+    background-color: #3882F6;
+    display:flex;
+}
+
+
+.signup-title {
+    color:#E5E7EB;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.signup-text {
+    color:#E5E7EB;
+    font-size:16px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.quote {
+    background-color:#E5E7EB;
+}
+
+.quote-text {
+    font-size:36px;
+    font-weight: 100;
+    font-style:italic;
+    color:#1F2937;
+
+}
+
+.quote-author {
+    font-size:24px;
+    font-weight:bolder;
+    color:#1F2937;
+    text-align:right;
+}
